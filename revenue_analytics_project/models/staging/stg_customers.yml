@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: Customer master data used for executive reporting.
+
+    columns:
+      - name: customer_id
+        description: Unique customer identifier.
+        tests:
+          - unique
+          - not_null
+
+      - name: company_name
+        description: Customer company name.
+
+      - name: industry
+        description: Customer industry.
+
+      - name: region
+        description: Geographic region.
+
+      - name: plan
+        description: Subscription plan.

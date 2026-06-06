@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: Sales opportunity data.
+
+    columns:
+      - name: opportunity_id
+        tests:
+          - unique
+          - not_null
+
+      - name: sales_rep
+        tests:
+          - not_null

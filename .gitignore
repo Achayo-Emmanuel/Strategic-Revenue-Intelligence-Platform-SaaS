@@ -1,0 +1,19 @@
+# Python environments
+venv/
+venv_dbt/
+
+# dbt artifacts
+target/
+dbt_packages/
+logs/
+
+# Data files
+*.csv
+
+# Temp files
+~$*
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc

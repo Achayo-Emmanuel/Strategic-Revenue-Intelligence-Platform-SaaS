@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_revenue
+    description: Monthly recurring revenue data.
+
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+
+      - name: date
+        tests:
+          - not_null
+
+      - name: mrr
+        description: Monthly recurring revenue.

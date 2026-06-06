@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_marketing
+    description: Marketing performance data.
+
+    columns:
+      - name: channel
+        tests:
+          - not_null
