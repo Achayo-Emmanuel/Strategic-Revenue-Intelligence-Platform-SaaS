@@ -166,6 +166,8 @@ clv/
 revenue_analytics_project/
 screenshots/
 
+Links Snowflake > https://app.snowflake.com/fpdpngv/eg89249/#/workspaces/ws/USER%24/PUBLIC/DEFAULT%24/creatingdb.sql
+Databricks > https://dbc-406cf001-4e2f.cloud.databricks.com/editor/notebooks/3284949587232433?contextId=sql-editor&o=7474656167687356#command/8707959689797063
 ---
 
 ## Author
