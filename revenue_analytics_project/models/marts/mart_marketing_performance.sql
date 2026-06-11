@@ -7,6 +7,13 @@ SELECT
     SUM(leads) AS total_leads,
 
     SUM(conversions) AS total_conversions,
+    SUM(conversions) * 500 AS total_revenue,
+
+ROUND(
+    (SUM(conversions) * 500)
+    / NULLIF(SUM(spend),0),
+    2
+) AS roas,
 
     ROUND(
         SUM(conversions) * 100.0
