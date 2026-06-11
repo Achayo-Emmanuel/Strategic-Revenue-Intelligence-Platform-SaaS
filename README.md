@@ -169,7 +169,43 @@ screenshots/
 Links Snowflake > https://app.snowflake.com/fpdpngv/eg89249/#/workspaces/ws/USER%24/PUBLIC/DEFAULT%24/creatingdb.sql
 Databricks > https://dbc-406cf001-4e2f.cloud.databricks.com/editor/notebooks/3284949587232433?contextId=sql-editor&o=7474656167687356#command/8707959689797063
 ---
+## Dashboard Pages
 
+### Executive KPI Dashboard
+
+* Total Revenue
+* Active Customers
+* Revenue Forecast
+* Revenue at Risk
+* Customer Lifetime Value
+
+### Sales Analytics
+
+* Pipeline Performance
+* Win Rates
+* Deal Size Analysis
+* Sales Funnel
+
+### Customer Health
+
+* Churn Risk Segmentation
+* Revenue at Risk
+* Customer Engagement Analysis
+* Top At-Risk Customers
+
+### Marketing Analytics
+
+* CAC
+* ROAS
+* Conversion Rate
+* Channel Performance
+* Lead-to-Customer Funnel
+
+### AI Decision Center
+
+* Executive recommendations generated from forecasting, churn prediction, customer lifetime value, sales performance, and marketing analytics.
+
+---
 ## Author
 
 Emmanuel Achayo
